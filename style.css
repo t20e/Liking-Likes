@@ -1,0 +1,126 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+#mainContainer {
+  width: 80%;
+  height: 90vh;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+}
+#Nav {
+  height: 15%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#underNav {
+  height: 85%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#column1 {
+  height: 90%;
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+}
+
+.network {
+  width: 100%;
+  height: 50%;
+  background-color: black;
+  color: white;
+  justify-content: flex-start;
+  display: flex;
+  align-items: center;
+}
+.network > h1 {
+  margin: 10px;
+}
+
+.yourFeed {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* under Nav  */
+.box1column {
+  border: 4px solid black;
+
+  height: 55%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.box1column > img {
+  width: 100px;
+}
+
+.box1column > * {
+  margin-top: 25px;
+}
+.box1column > p {
+  text-decoration: underline;
+}
+
+/* right column  */
+#column2 {
+  height: 100%;
+  width: 65%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.boxright {
+  height: 29%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1%;
+  border: 4px solid black;
+}
+
+.box1Top {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.boxRightBottom {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-direction: column;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.4rem;
+}
+.btn {
+  background-color: orange;
+  height: 3rem;
+  width: 5rem;
+  font-size: 100%;
+  font-weight: bolder;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 4px solid black;
+  box-shadow: 4px 4px black;
+}

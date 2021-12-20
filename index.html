@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Liking Likes</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="mainContainer">
+      <!-- contains everything  -->
+
+      <div id="Nav">
+        <!-- has both network adn your feed texts  -->
+        <div class="network">
+          <h1>Network</h1>
+        </div>
+        <div class="yourFeed">
+          <h1>Your Feed</h1>
+        </div>
+      </div>
+
+      <div id="underNav">
+        <div id="column1">
+          <!-- has column 1 stuff  -->
+          <div class="box1column">
+            <!-- user info james doe  -->
+            <img src="user1.png" alt="User Image" />
+            <p>Add an avatar</p>
+            <h2>James Doe</h2>
+          </div>
+        </div>
+        <div id="column2">
+          <!-- has column 2 stuff right  -->
+          <div class="boxright">
+            <div class="box1Top">
+              <h2>Neil M</h2>
+              <h3 id="h1">Like</h3>
+              <button id="1" class="btn" onclick="increaseLikes()">Like</button>
+            </div>
+            <div class="boxRightBottom">
+              <p>
+                I just set up this new discord bot, let me know waht you think.
+                <a href="https://www.google.com/">link</a>
+              </p>
+            </div>
+          </div>
+          <div class="boxright">
+            <div class="box1Top">
+              <h2>Nichole K</h2>
+              <h3 id="h2">Like</h3>
+              <button id="2" class="btn" onclick="increaseLikes2()">
+                Like
+              </button>
+            </div>
+            <div class="boxRightBottom">
+              <p>
+                Just finished my
+                <a href="https://www.google.com/">next comic,</a> check it out.
+              </p>
+            </div>
+          </div>
+          <div class="boxright">
+            <div class="box1Top">
+              <h2>Neil M</h2>
+              <h3 id="h3">Like</h3>
+              <button id="3" class="btn" onclick="increaseLikes3()">
+                Like
+              </button>
+            </div>
+            <div class="boxRightBottom">
+              <p>
+                I can't stop listening to the
+                <a href="https://www.google.com/">new album. </a>Who else is
+                liking it?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
